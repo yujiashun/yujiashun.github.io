@@ -494,6 +494,32 @@ article footer .addthis {
 article footer .addthis iframe {
   margin-top: 0;
 }
+.toc-article {
+  float: right;
+}
+#toc {
+  background: #eee;
+  margin: 0 0 10px 20px;
+  padding: 12px;
+  line-height: 18px;
+  font-size: 10px;
+}
+#toc strong {
+  font-size: 15px;
+}
+#toc ol {
+  margin-top: 5px;
+  margin-left: 0;
+}
+#toc .toc {
+  padding: 0;
+}
+#toc .toc li {
+  list-style-type: none;
+}
+#toc .toc-child {
+  padding-left: 20px;
+}
 #comment {
   padding: 20px;
   background: #fff;
@@ -813,4 +839,7 @@ pre .clojure .title {
 }
 pre .deletion {
   color: #dc322f;
+}
+.ds-recent-comments li.ds-comment:first-child {
+  border-top: none !important;
 }
