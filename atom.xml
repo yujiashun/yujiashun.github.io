@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-29T03:05:38.317Z</updated>
+  <updated>2016-10-10T15:47:23.868Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,18 +16,82 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>javascript学习笔记</title>
+    <link href="http://yoursite.com/2016/10/10/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/10/10/javascript学习笔记/</id>
+    <published>2016-10-10T15:32:34.000Z</published>
+    <updated>2016-10-10T15:47:23.868Z</updated>
+    
+    <content type="html"><![CDATA[<p>一、js数据类型、基本规范、内存图</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/js%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%9F%BA%E6%9C%AC%E8%A7%84%E8%8C%83.jpg" alt=""><br><img src="http://oeu71vmjk.bkt.clouddn.com/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.jpg" alt=""></p>
+<p>二、js原型<br><a id="more"></a><br><img src="http://oeu71vmjk.bkt.clouddn.com/js%E5%8E%9F%E5%9E%8B.jpg" alt=""></p>
+<p>三、this的理解</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/this%E7%9A%84%E7%90%86%E8%A7%A3.jpg" alt=""></p>
+<p>四、new操作符干了什么</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/new%E6%93%8D%E4%BD%9C%E5%B9%B2%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F.jpg" alt=""></p>
+<p>五、js作用域链</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/js%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE.jpg" alt=""></p>
+<p>六、ajax过程</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/ajax%E8%BF%87%E7%A8%8B.jpg" alt=""><br><img src="http://oeu71vmjk.bkt.clouddn.com/ajax.jpg" alt=""></p>
+<p>七、闭包</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/%E9%97%AD%E5%8C%85.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一、js数据类型、基本规范、内存图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oeu71vmjk.bkt.clouddn.com/js%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%9F%BA%E6%9C%AC%E8%A7%84%E8%8C%83.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://oeu71vmjk.bkt.clouddn.com/js%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%86%85%E5%AD%98%E5%9B%BE.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;二、js原型&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="javascript学习笔记" scheme="http://yoursite.com/tags/javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Css、Html学习过程笔记</title>
+    <link href="http://yoursite.com/2016/10/10/Css%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/10/10/Css学习过程笔记/</id>
+    <published>2016-10-10T14:47:16.000Z</published>
+    <updated>2016-10-10T15:47:50.972Z</updated>
+    
+    <content type="html"><![CDATA[<p>一、行内元素的margin-top/margin-bottom/padding-top/padding-bottom/text-indent无效</p>
+<p>二、浮动导致父元素坍塌</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/%E6%B5%AE%E5%8A%A8%E7%A0%B4%E5%9D%8F%E6%80%A7.jpg" alt=""></p>
+<p>三、link 和 @import 的区别<br><a id="more"></a><br><img src="http://oeu71vmjk.bkt.clouddn.com/link%20%E5%92%8C%20import@.jpg" alt=""></p>
+<p>四、title和h1、b和strong、i和em的区别</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/title%E5%92%8Ch1%E3%80%81b%E5%92%8Cstrong%E3%80%81i%E5%92%8Cem.jpg" alt=""></p>
+<p>五、处理IE6的bug<br>1、双边距bug</p>
+<p><img src="http://oeu71vmjk.bkt.clouddn.com/%E5%8F%8C%E8%BE%B9%E8%B7%9Dbug.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一、行内元素的margin-top/margin-bottom/padding-top/padding-bottom/text-indent无效&lt;/p&gt;
+&lt;p&gt;二、浮动导致父元素坍塌&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oeu71vmjk.bkt.clouddn.com/%E6%B5%AE%E5%8A%A8%E7%A0%B4%E5%9D%8F%E6%80%A7.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;三、link 和 @import 的区别&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Css学习过程笔记" scheme="http://yoursite.com/tags/Css%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>正则表达式笔记</title>
     <link href="http://yoursite.com/2016/09/29/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2016/09/29/正则表达式笔记/</id>
     <published>2016-09-29T01:53:16.000Z</published>
-    <updated>2016-09-29T03:05:38.317Z</updated>
+    <updated>2016-10-10T15:47:37.567Z</updated>
     
     <content type="html"><![CDATA[<p>一、或匹配</p>
 <p><img src="http://p1.bqimg.com/4851/eb3ab068ad8617b5.jpg" alt="1"></p>
-<p>二、分组匹配</p>
-<p><img src="http://p1.bqimg.com/4851/b1ebde5cceb94342.jpg" alt=""></p>
+<p>二、分组匹配<br><a id="more"></a><br><img src="http://p1.bqimg.com/4851/b1ebde5cceb94342.jpg" alt=""></p>
 <p>三、前瞻性匹配</p>
-<a id="more"></a>
 <p><img src="http://i1.piimg.com/4851/fbca207622bdbf7a.jpg" alt=""></p>
 <p>四、exec在全局模式下的注意点</p>
 <p><img src="http://i1.piimg.com/4851/e2fcbbec3bc42d9c.jpg" alt=""></p>
@@ -39,9 +103,7 @@
     
       &lt;p&gt;一、或匹配&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://p1.bqimg.com/4851/eb3ab068ad8617b5.jpg&quot; alt=&quot;1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;二、分组匹配&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://p1.bqimg.com/4851/b1ebde5cceb94342.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;三、前瞻性匹配&lt;/p&gt;
+&lt;p&gt;二、分组匹配&lt;br&gt;
     
     </summary>
     
